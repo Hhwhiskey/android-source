@@ -32,12 +32,13 @@ public class Methods extends Object {
 	 * @return the logical opposite of the original
 	 */
 	public boolean giveMeTheOpposite(boolean original) {
-		/************************************************
-		 * Your work goes here
-		 ************************************************/
-
+		
+		if (giveMeTheOpposite = true) {
+			system.out.println("false");
+		}else{
+			System.out.println("true");
 		// You are free to modify the return statement
-		return false;
+		return true;
 	}
 
 	/*
@@ -56,10 +57,12 @@ public class Methods extends Object {
 	 * 		  sign must be flipped
 	 * @return nothing
 	 */
-	public void flipTheSign(int[] numbers) {
-		/************************************************
-		 * Your work goes here
-		 ************************************************/
+	public void flipTheSign {
+		String flip[] = {1, 54, -12, 42, -57, 24, -182, 9521};
+		for (int i = 0; i < flip.length; i++) {
+			
+		
+		
 	}
 
 
