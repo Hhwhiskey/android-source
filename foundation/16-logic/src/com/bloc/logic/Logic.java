@@ -71,9 +71,9 @@ public class Logic extends Object {
 		 * 	as 'true'
 		/************************************************/
 
-		boolean lastOne = false;
-		if ((8 < 0) && !(15 == 15) && (lastOne == true)) { // Modify this line
-			buffer.append("g");
+		boolean lastOne = true;
+		if ((8 > 0) && !(15 == 15) && (lastOne == true)) { // Modify this line
+			buffer.append("t");
 		} else {
 			buffer.append("g");
 		}
