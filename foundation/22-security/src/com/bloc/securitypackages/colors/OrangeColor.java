@@ -6,9 +6,8 @@ import com.bloc.securitypackages.Color;
  *	YOU MAY MODIFY THIS FILE AND/OR ITS LOCATION
 /************************************************/
 
-public class LimeGreen extends Color {
-	public LimeGreen() {
-		super(LimeGreen.class.getSimpleName(), 50, 205, 50);
-		//System.out.println("color is " + LimeGreen.class.getSimpleName());
+public class OrangeColor extends Color {
+	public OrangeColor() {
+		super(OrangeColor.class.getSimpleName(), 255, 165, 0);
 	}
 }
