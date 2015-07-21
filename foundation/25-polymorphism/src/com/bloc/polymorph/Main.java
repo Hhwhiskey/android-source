@@ -1,7 +1,5 @@
 package com.bloc.polymorph;
 
-import com.bloc.polymorph.pets.*;
-
 public class Main extends Object {
 
 	public static void main(String [] args) {
@@ -16,7 +14,19 @@ public class Main extends Object {
 	 	 *	ASSIGNMENT:
 	 	 *	Replace the operations below by employing polymorphism
 		/************************************************/
-
+		Pet action[] = new Pet[5];
+		
+		action[0] = new Bird();
+		action[1] = new Cat();
+		action[2] = new Dog();
+		action[3] = new Snake();
+		action[4] = new Tarantula();
+		
+		for (int i = 0; i < 5; i++) {
+			action[i].feed();
+			action[i].wash();
+			action[i].exercise();
+		}
 		dog.feed();
 		dog.wash();
 		dog.exercise();
