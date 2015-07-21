@@ -1,11 +1,10 @@
-package com.bloc.interfaces;
+package com.bloc.Interfaces;
 
 /************************************************
  *	YOU MAY NOT MODIFY THIS FILE
 /************************************************/
 
-import com.bloc.interfaces.people.*;
-import com.bloc.interfaces.people.hobbies.*;
+
 
 public class Main extends Object {
 

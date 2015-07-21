@@ -1,4 +1,4 @@
-package com.bloc.interfaces.people.hobbies;
+package com.bloc.Interfaces;
 
 /************************************************
  *	ASSIGNMENT:
@@ -6,6 +6,19 @@ package com.bloc.interfaces.people.hobbies;
 /************************************************/
 
 public interface Driver {
+	
+	public static void getInCar() {
+		
+	}
+	
+	public static void startEngine() {
+		
+	}
+	
+	public static void driveFast() {
+		
+	}
+}	
 	/*
 	 * getInCar
 	 *
@@ -29,4 +42,3 @@ public interface Driver {
 	 *
 	 * @return nothing
 	 */
-}

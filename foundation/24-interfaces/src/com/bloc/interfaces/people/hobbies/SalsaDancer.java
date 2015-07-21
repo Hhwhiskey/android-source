@@ -1,4 +1,4 @@
-package com.bloc.interfaces.people.hobbies;
+package com.bloc.Interfaces;
 
 /************************************************
  *	ASSIGNMENT:
@@ -6,6 +6,19 @@ package com.bloc.interfaces.people.hobbies;
 /************************************************/
 
 public interface SalsaDancer {
+	
+	public static void putOnShoes() {
+	
+	}
+	
+	public static void findAPartner() {
+		
+	}
+	
+	public static void salsa() {
+		
+	}
+}	
 	
 	/*
 	 * putOnShoes
@@ -30,4 +43,3 @@ public interface SalsaDancer {
 	 *
 	 * @return nothing
 	 */
-}

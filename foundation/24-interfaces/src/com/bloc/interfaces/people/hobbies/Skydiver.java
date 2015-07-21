@@ -1,4 +1,4 @@
-package com.bloc.interfaces.people.hobbies;
+package com.bloc.Interfaces;
 
 /************************************************
  *	ASSIGNMENT:
@@ -6,6 +6,19 @@ package com.bloc.interfaces.people.hobbies;
 /************************************************/
 
 public interface Skydiver {
+	
+	public static void getInPlane() {
+		
+	}
+	
+	public static void jumpFromPlane() {
+		
+	}
+	
+	public static void releaseParachute() {
+		
+	}
+}	
 	/*
 	 * getInPlane
 	 *
@@ -29,4 +42,3 @@ public interface Skydiver {
 	 *
 	 * @return nothing
 	 */
-}

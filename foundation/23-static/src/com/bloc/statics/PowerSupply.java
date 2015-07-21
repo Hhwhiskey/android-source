@@ -4,8 +4,6 @@ package com.bloc.statics;
  *	YOU MAY NOT MODIFY THIS FILE
 /************************************************/
 
-import com.bloc.statics.appliances.*;
-
 public class PowerSupply extends Object {
 	private Appliance[] mAppliances;
 

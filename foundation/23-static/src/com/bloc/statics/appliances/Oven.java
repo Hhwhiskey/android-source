@@ -1,4 +1,4 @@
-package com.bloc.statics.appliances;
+package com.bloc.statics;
 
 /************************************************
  *	YOU MAY NOT MODIFY THIS FILE
