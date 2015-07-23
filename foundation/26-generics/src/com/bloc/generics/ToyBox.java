@@ -1,4 +1,4 @@
-package com.bloc.generics;
+package com.bloc.generictype;
 
 /************************************************
  *	YOU MAY NOT MODIFY THIS FILE

@@ -40,6 +40,7 @@ public class Main extends Object {
 			int pastryRating = 0;
 			for (int i = 0; i < pastries.length; i++) {
 				pastryRating = favoritePastries.getRatingForPastry(pastries[i]);
+				System.out.println("pastry = " + pastries[i] + " / " + "rating "+ ratings[i]);
 				assert pastryRating == ratings[i] : "getRatingForPastry returned an incorrect value";
 			}
 			pastryRating = favoritePastries.getRatingForPastry(new Pastry("Surprise!"));
@@ -54,6 +55,7 @@ public class Main extends Object {
 			}
 			favoritePastries.addPastry(pastries[0], ratings[0]);
 			pastryRating = favoritePastries.getRatingForPastry(pastries[0]);
+			System.out.println("pastry = " + pastries[0] + " / " + "rating "+ ratings[0]);
 			assert pastryRating == ratings[0] : "addPastry failed to update a rating for an existing Pastry";
 
 			// Test removePastry
@@ -64,6 +66,8 @@ public class Main extends Object {
 
 			// Re-add cronut
 			favoritePastries.addPastry(pastries[0], ratings[0]);
+			System.out.println("pastry = " + pastries[0] + " / " + "rating "+ ratings[0]);
+			
 
 			// Test getPastriesForRating
 			Collection<Pastry> negOneSet = favoritePastries.getPastriesForRating(-1);

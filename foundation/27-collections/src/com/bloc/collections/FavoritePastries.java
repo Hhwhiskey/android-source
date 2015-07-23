@@ -18,7 +18,7 @@ import java.util.*;
  * A pastry may not have duplicate entries
  */
 public class FavoritePastries {
-
+	private final HashMap<Pastry, Integer> mPastryMap;
 	/************************************************
  	 *	ASSIGNMENT:
 	 *	Use a HashMap to store the relationship
@@ -27,11 +27,9 @@ public class FavoritePastries {
 
 
 	public FavoritePastries() {
-		/************************************************
- 	 	 *	WORK HERE
-		/************************************************/
-	}
-
+		mPastryMap = new HashMap<>();
+		
+	}	
 	/* 
 	 * addPastry
 	 *
@@ -48,6 +46,8 @@ public class FavoritePastries {
 	 * @return nothing
 	 */
 	public void addPastry(Pastry pastry, int rating) {
+		mPastryMap.put(pastry, rating);
+       // System.out.println("mPastryMap = " + mPastryMap + " / ");
 		/************************************************
  	 	 *	WORK HERE
 		/************************************************/
@@ -66,9 +66,8 @@ public class FavoritePastries {
 	 *		   false otherwise
 	 */
 	public boolean removePastry(Pastry pastry) {
-		/************************************************
- 	 	 *	WORK HERE, you must modify the return value
-		/************************************************/
+		mPastryMap.remove(pastry);
+       // System.out.println("new mPastryMap = " + mPastryMap + " / ");
 		return false;
 	}
 
@@ -87,10 +86,12 @@ public class FavoritePastries {
 	 *		   -1 if not found among FavoritePastries
 	 */
 	public int getRatingForPastry(Pastry pastry) {
-		/************************************************
- 	 	 *	WORK HERE, you must modify the return value
-		/************************************************/
+		if (mPastryMap.get(pastry) != null) {
+		int rating = mPastryMap.get(pastry);
+		return rating;
+		} else {
 		return -1;
+		}
 	}
 
 	/* 
