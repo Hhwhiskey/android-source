@@ -10,7 +10,7 @@ import java.util.Random;
 public class Main extends Object {
 
 	public static void main(String [] args) {
-		ArrayList<Integer> numberList = new ArrayList<Integer>();
+		ArrayList<Integer> numberList = new ArrayList<Integer>();		
 		int max = 0;
 		int temp = 0;
 		Random random = new Random();
