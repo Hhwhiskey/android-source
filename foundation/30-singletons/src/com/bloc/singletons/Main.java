@@ -4,8 +4,8 @@ package com.bloc.singletons;
  *	YOU MAY NOT MODIFY THIS FILE
 /************************************************/
 
-import com.bloc.singletons.listeners.*;
-import com.bloc.singletons.talkers.*;
+import com.bloc.singletons.Listener.*;
+import com.bloc.singletons.Talker.*;
 
 public class Main extends Object {
 

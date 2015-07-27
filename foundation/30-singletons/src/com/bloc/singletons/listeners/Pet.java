@@ -1,4 +1,4 @@
-package com.bloc.singletons.listeners;
+package com.bloc.singletons;
 
 /************************************************
  *	YOU MAY NOT MODIFY THIS FILE
